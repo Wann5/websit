@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/*tanda bintang ini berfungsi memanggil satu folder yang kita buat*/
+*{
+	font-family: 'Poppins';
+	padding: 0;
+	margin: 0;
+/*scroll untuk navigasi ke nav lain dengan scroll smoth	*/
+	scroll-behavior: smooth;
+}
+
+.hero{
+	width: 100%;
+} 
+
+nav{
+	background-color: rebeccapurple;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	space-between;
+	padding: 2rem;
+	padding: 0 5%;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 24px;	
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+	color: white;
+	transition: 0,5s;
+}
+
+.content img{
+	width: 100%;
+	height: 100vh;
+	background-size: over;
+	background-position: center;
+	
+}
+
+.content h3{
+	color: #BE93D4;
+	position: absolute;
+	font-size: 17px;
+	top: 20rem;
+	left: 5%;
+	font-style: unset;
+	/*transform: translate(-50%);*/
+}
+.content h1{
+	color: #BE93D4;
+	position: absolute;
+	font-size: 27px;
+	top: 21rem;
+	left: 5%;
+	font-style: unset;
+	/*transform: translate(-50%);*/
+}
+.content h2{
+	color: #BE93D4;
+	position: absolute;
+	font-size: 23px;
+	top: 24rem;
+	left: 5%;
+	font-style: italic;
+	/*transform: translate(-50%);*/
+}
+.about{
+	width: 100%;
+	background-color:white;
+	height: 850%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-img{
+	width: 435px;
+	height: auto;
+	background-color:#B39EB5 ;
+	border-radius: 30px;
+}
+
+.about-text{
+	color: #BE93D4;
+	font-size: 24px;
+	width: 900px;
+}
+
+.main{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav h2{
+	color: white;
+}
+
